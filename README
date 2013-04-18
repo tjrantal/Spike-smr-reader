@@ -1,0 +1,11 @@
+Spike smr matlab reader.
+
+I took the functions from sigTOOL package written by Malcom Lidierth(http://sigtool.sourceforge.net/sigtool.html). I modified the functions to return a structure instead of writing to a file. I also removed the progress bar.
+
+Use:
+add smrReader folder to your path (i.e. addpath('smrReader');)
+use the ImportSMR function to read your data (i.e. data =ImportSMR([dataPath fileName]););
+readSMR.m contains an  example (you'll have to provide your own .smr -file...
+
+
+Timo Rantalainen 2013 (tjrantal at gmail.com).
